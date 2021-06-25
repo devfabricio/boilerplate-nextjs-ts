@@ -11,9 +11,9 @@
     "test:watch": "yarn test --watch"
   },
   "lint-staged": {
-    "src/**/*": [
+    "src/**/*.tsx": [
       "yarn lint",
-      "yarn test --bail"
+      "yarn test --bail --passWithNoTests"
     ]
   },
   "dependencies": {

@@ -3,7 +3,7 @@ import Image from 'next/image'
 import styles from '../../styles/Home.module.css'
 
 export default function Home() {
-  const title = 'React Avançado'
+  const title = 'React Avançado & NexyJS'
   return (
     <div className={styles.container}>
       <Head>
